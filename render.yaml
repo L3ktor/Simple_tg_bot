@@ -1,10 +1,9 @@
 services:
   - type: web
     name: telegram-java-bot
-    env: Java
-    buildCommand: mvn clean package
-    startCommand: java -jar target/telegrambot-1.0.jar
+    env: docker
     plan: free
+    dockerfilePath: Dockerfile
     envVars:
       - key: BOT_TOKEN
         value: 8147044853:AAGoNdNRqNlTkxJMMOJ5kSpkw8Xy4M5GwHI
