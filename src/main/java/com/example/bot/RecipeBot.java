@@ -69,7 +69,7 @@ public class RecipeBot extends TelegramLongPollingBot {
         // Свинина
         recipes.put("Шейка+Картофель+Томатный", new Recipe(
                 "Свинина с картофелем в томатном соусе",
-                "https://example.com/pork_potato.jpg",
+                "https://i.pinimg.com/originals/1d/5d/f4/1d5df40c202b1b366f95b3a74997dc5a.jpg",
                 Arrays.asList("Свиная шейка", "Картофель", "Томатный соус"),
                 Arrays.asList(
                         "Нарежьте картофель кубиками.",
@@ -84,7 +84,7 @@ public class RecipeBot extends TelegramLongPollingBot {
         ));
         recipes.put("Карбонад+Рис+Сливочный", new Recipe(
                 "Свинина с рисом в сливочном соусе",
-                "https://example.com/pork_rice.jpg",
+                "https://www.chefmarket.ru/blog/wp-content/uploads/2019/06/recipe-of-beef-e1560067861652.jpg",
                 Arrays.asList("Свиной карбонад", "Рис", "Сливочный соус"),
                 Arrays.asList(
                         "Промойте рис, варите в подсоленной воде 15 минут.",
@@ -98,7 +98,7 @@ public class RecipeBot extends TelegramLongPollingBot {
         ));
         recipes.put("Лопатка+Гречневая лапша+Терияки", new Recipe(
                 "Свинина вок с гречневой лапшой",
-                "https://example.com/pork_wok.jpg",
+                "https://drakosh.ru/wp-content/uploads/2018/12/Крахмальная-лапша-со-свининой-1.jpg",
                 Arrays.asList("Свиная лопатка", "Гречневая лапша", "Соус терияки"),
                 Arrays.asList(
                         "Варите гречневую лапшу в подсоленной воде 5 минут.",
@@ -112,7 +112,7 @@ public class RecipeBot extends TelegramLongPollingBot {
         ));
         recipes.put("Шейка+Паста+Песто", new Recipe(
                 "Свинина с пастой и соусом песто",
-                "https://example.com/pork_pasta.jpg",
+                "https://i.pinimg.com/736x/e5/b3/16/e5b31604a2ac1c3f9ec852d9df050b47.jpg",
                 Arrays.asList("Свиная шейка", "Паста", "Соус песто"),
                 Arrays.asList(
                         "Варите пасту в подсоленной воде до аль денте 8 минут.",
@@ -128,7 +128,7 @@ public class RecipeBot extends TelegramLongPollingBot {
         // Говядина
         recipes.put("Вырезка+Картофель+Сливочный", new Recipe(
                 "Говядина с картофелем в сливочном соусе",
-                "https://example.com/beef_potato.jpg",
+                "https://yourfamilychef.ru/upload/iblock/d7a/d7a182a76d1ac35e123a43ef80cb0765.jpg",
                 Arrays.asList("Говяжья вырезка", "Картофель", "Сливочный соус"),
                 Arrays.asList(
                         "Нарежьте картофель кубиками.",
@@ -143,7 +143,7 @@ public class RecipeBot extends TelegramLongPollingBot {
         ));
         recipes.put("Ребро+Рис+Томатный", new Recipe(
                 "Говяжьи ребра с рисом",
-                "https://example.com/beef_ribs.jpg",
+                "https://avatars.mds.yandex.net/i?id=53705d396f7bba9dbad34783bb749653_l-5347526-images-thumbs&n=13.jpg",
                 Arrays.asList("Говяжьи ребра", "Рис", "Томатный соус"),
                 Arrays.asList(
                         "Промойте рис, варите в подсоленной воде 15 минут.",
@@ -156,7 +156,7 @@ public class RecipeBot extends TelegramLongPollingBot {
         ));
         recipes.put("Филе+Гречневая лапша+Терияки", new Recipe(
                 "Говядина вок с гречневой лапшой",
-                "https://example.com/beef_wok.jpg",
+                "https://karaoke-b29.ru/images/2025/04/04/grechnevaya-lapsha.jpeg",
                 Arrays.asList("Говяжье филе", "Гречневая лапша", "Соус терияки"),
                 Arrays.asList(
                         "Варите гречневую лапшу в подсоленной воде 5 минут.",
@@ -168,9 +168,9 @@ public class RecipeBot extends TelegramLongPollingBot {
                 25,
                 "Эль"
         ));
-        recipes.put("Вырезка+Паста+Песто", new Recipe(
-                "Говядина с пастой и соусом песто",
-                "https://example.com/beef_pasta.jpg",
+        recipes.put("Вырезка+Паста+Сливочный", new Recipe(
+                "Говядина с пастой и соусом сливочный",
+                "https://avatars.mds.yandex.net/i?id=15a71ca12c9ca8426120e3c8eae121eb_l-8199312-images-thumbs&n=13",
                 Arrays.asList("Говяжья вырезка", "Паста", "Соус песто"),
                 Arrays.asList(
                         "Варите пасту в подсоленной воде до аль денте 8 минут.",
@@ -186,7 +186,7 @@ public class RecipeBot extends TelegramLongPollingBot {
         // Курица
         recipes.put("Бедро+Гречневая лапша+Терияки", new Recipe(
                 "Вок с курицей",
-                "https://example.com/chicken_wok.jpg",
+                "https://static.tildacdn.com/stor6463-3531-4637-b763-303462333333/26706059.jpg",
                 Arrays.asList("Куриное бедро", "Гречневая лапша", "Соус терияки"),
                 Arrays.asList(
                         "Варите гречневую лапшу в подсоленной воде 5 минут.",
@@ -200,7 +200,7 @@ public class RecipeBot extends TelegramLongPollingBot {
         ));
         recipes.put("Грудка+Рис+Сливочный", new Recipe(
                 "Курица с рисом в сливочном соусе",
-                "https://example.com/chicken_rice.jpg",
+                "https://i.pinimg.com/736x/75/79/67/757967cb1d1d6cc09d9b0cfa6e34203e.jpg",
                 Arrays.asList("Куриная грудка", "Рис", "Сливочный соус"),
                 Arrays.asList(
                         "Промойте рис, варите в подсоленной воде 15 минут.",
@@ -214,7 +214,7 @@ public class RecipeBot extends TelegramLongPollingBot {
         ));
         recipes.put("Крылья+Картофель+Томатный", new Recipe(
                 "Куриные крылья с картофелем",
-                "https://example.com/chicken_wings.jpg",
+                "https://avatars.mds.yandex.net/i?id=8a129c2b78031e4922ac56a1700c9394_l-5236697-images-thumbs&n=13.jpg",
                 Arrays.asList("Куриные крылья", "Картофель", "Томатный соус"),
                 Arrays.asList(
                         "Нарежьте картофель кубиками.",
@@ -228,7 +228,7 @@ public class RecipeBot extends TelegramLongPollingBot {
         ));
         recipes.put("Бедро+Паста+Песто", new Recipe(
                 "Курица с пастой и соусом песто",
-                "https://example.com/chicken_pasta.jpg",
+                "http://avatars.dzeninfra.ru/get-zen_brief/271828/pub_67dd75225ecd6d61ec333669_67dd75225ecd6d61ec33366a/smart_crop_516x290.jpg",
                 Arrays.asList("Куриное бедро", "Паста", "Соус песто"),
                 Arrays.asList(
                         "Варите пасту в подсоленной воде до аль денте 8 минут.",
@@ -244,7 +244,7 @@ public class RecipeBot extends TelegramLongPollingBot {
         // Индейка
         recipes.put("Филе+Картофель+Сливочный", new Recipe(
                 "Индейка с картофелем в сливочном соусе",
-                "https://example.com/turkey_potato.jpg",
+                "https://avatars.mds.yandex.net/i?id=8379b7f4187f75d7861adea31e8141a6_l-5231983-images-thumbs&n=13",
                 Arrays.asList("Филе индейки", "Картофель", "Сливочный соус"),
                 Arrays.asList(
                         "Нарежьте картофель кубиками.",
@@ -259,7 +259,7 @@ public class RecipeBot extends TelegramLongPollingBot {
         ));
         recipes.put("Голень+Рис+Томатный", new Recipe(
                 "Индейка с рисом в томатном соусе",
-                "https://example.com/turkey_rice.jpg",
+                "https://static.wikia.nocookie.net/ef237831-d57c-4c7c-a0d4-658d621b71a7/scale-to-width/755.jpg",
                 Arrays.asList("Голень индейки", "Рис", "Томатный соус"),
                 Arrays.asList(
                         "Промойте рис, варите в подсоленной воде 15 минут.",
@@ -272,7 +272,7 @@ public class RecipeBot extends TelegramLongPollingBot {
         ));
         recipes.put("Филе+Гречневая лапша+Терияки", new Recipe(
                 "Индейка вок с гречневой лапшой",
-                "https://example.com/turkey_wok.jpg",
+                "https://static.wikia.nocookie.net/ef237831-d57c-4c7c-a0d4-658d621b71a7/scale-to-width/755.jpg",
                 Arrays.asList("Филе индейки", "Гречневая лапша", "Соус терияки"),
                 Arrays.asList(
                         "Варите гречневую лапшу в подсоленной воде 5 минут.",
@@ -286,7 +286,7 @@ public class RecipeBot extends TelegramLongPollingBot {
         ));
         recipes.put("Голень+Паста+Песто", new Recipe(
                 "Индейка с пастой и соусом песто",
-                "https://example.com/turkey_pasta.jpg",
+                "https://static.wikia.nocookie.net/ef237831-d57c-4c7c-a0d4-658d621b71a7/scale-to-width/755.jpg",
                 Arrays.asList("Голень индейки", "Паста", "Соус песто"),
                 Arrays.asList(
                         "Варите пасту в подсоленной воде до аль денте 8 минут.",
@@ -302,7 +302,7 @@ public class RecipeBot extends TelegramLongPollingBot {
         // Рыба
         recipes.put("Лосось+Рис+Сливочный", new Recipe(
                 "Лосось с рисом в сливочном соусе",
-                "https://example.com/salmon_rice.jpg",
+                "https://static.wikia.nocookie.net/ef237831-d57c-4c7c-a0d4-658d621b71a7/scale-to-width/755.jpg",
                         Arrays.asList("Лосось", "Рис", "Сливочный соус"),
                         Arrays.asList(
                                 "Промойте рис, варите в подсоленной воде 15 минут.",
@@ -316,7 +316,7 @@ public class RecipeBot extends TelegramLongPollingBot {
                 ));
         recipes.put("Треска+Картофель+Томатный", new Recipe(
                 "Треска с картофелем в томатном соусе",
-                "https://example.com/cod_potato.jpg",
+                "https://static.wikia.nocookie.net/ef237831-d57c-4c7c-a0d4-658d621b71a7/scale-to-width/755.jpg",
                 Arrays.asList("Треска", "Картофель", "Томатный соус"),
                 Arrays.asList(
                         "Нарежьте картофель кубиками.",
@@ -331,7 +331,7 @@ public class RecipeBot extends TelegramLongPollingBot {
         ));
         recipes.put("Лосось+Гречневая лапша+Терияки", new Recipe(
                 "Лосось вок с гречневой лапшой",
-                "https://example.com/salmon_wok.jpg",
+                "https://static.wikia.nocookie.net/ef237831-d57c-4c7c-a0d4-658d621b71a7/scale-to-width/755.jpg",
                 Arrays.asList("Лосось", "Гречневая лапша", "Соус терияки"),
                 Arrays.asList(
                         "Варите гречневую лапшу в подсоленной воде 5 минут.",
@@ -345,7 +345,7 @@ public class RecipeBot extends TelegramLongPollingBot {
         ));
         recipes.put("Треска+Паста+Песто", new Recipe(
                 "Треска с пастой и соусом песто",
-                "https://example.com/cod_pasta.jpg",
+                "https://static.wikia.nocookie.net/ef237831-d57c-4c7c-a0d4-658d621b71a7/scale-to-width/755.jpg",
                 Arrays.asList("Треска", "Паста", "Соус песто"),
                 Arrays.asList(
                         "Варите пасту в подсоленной воде до аль денте 8 минут.",
