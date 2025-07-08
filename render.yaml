@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: telegram-java-bot
+    env: docker
+    plan: free
+    dockerfilePath: Dockerfile
+    envVars:
+      - key: BOT_TOKEN
+        value: 8147044853:AAGoNdNRqNlTkxJMMOJ5kSpkw8Xy4M5GwHI
